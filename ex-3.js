@@ -10,6 +10,6 @@ let additionalOrders = [
 ];
 
 // Start coding here
-let newOrders = [...orders,,,,additionalOrders]
+let newOrders = [...orders,...additionalOrders]
 
 console.log(newOrders);
